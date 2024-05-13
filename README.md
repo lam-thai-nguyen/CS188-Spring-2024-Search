@@ -83,3 +83,67 @@ Question q2: 3/3
 ------------------
 Total: 3/3
 ```
+
+## Q3 (3 pts): Varying the Cost Function (Lecture 2)
+
+```
+Starting on 5-13 at 22:11:58
+
+Question q3
+===========
+Search Succeeded.
+*** PASS: test_cases\q3\graph_backtrack.test
+***     solution:               ['1:A->C', '0:C->G']
+***     expanded_states:        ['A', 'B', 'C', 'D']
+Search Succeeded.
+*** PASS: test_cases\q3\graph_bfs_vs_dfs.test
+***     solution:               ['1:A->G']
+***     expanded_states:        ['A', 'B']
+Search Succeeded.
+*** PASS: test_cases\q3\graph_infinite.test
+***     solution:               ['0:A->B', '1:B->C', '1:C->G']
+***     expanded_states:        ['A', 'B', 'C']
+Search Succeeded.
+*** PASS: test_cases\q3\graph_manypaths.test
+***     solution:               ['1:A->C', '0:C->D', '1:D->F', '0:F->G']
+***     expanded_states:        ['A', 'B1', 'C', 'B2', 'D', 'E1', 'F', 'E2']
+Search Succeeded.
+*** PASS: test_cases\q3\ucs_0_graph.test
+***     solution:               ['Right', 'Down', 'Down']
+***     expanded_states:        ['A', 'B', 'D', 'C', 'G']
+Search Succeeded.
+*** PASS: test_cases\q3\ucs_1_problemC.test
+***     pacman layout:          mediumMaze
+***     solution length: 68
+***     nodes expanded:         269
+Search Succeeded.
+*** PASS: test_cases\q3\ucs_2_problemE.test
+***     pacman layout:          mediumMaze
+***     solution length: 74
+***     nodes expanded:         260
+Search Succeeded.
+*** PASS: test_cases\q3\ucs_3_problemW.test
+***     pacman layout:          mediumMaze
+***     solution length: 152
+***     nodes expanded:         173
+Search Succeeded.
+*** PASS: test_cases\q3\ucs_4_testSearch.test
+***     pacman layout:          testSearch
+***     solution length: 7
+***     nodes expanded:         14
+Search Succeeded.
+*** PASS: test_cases\q3\ucs_5_goalAtDequeue.test
+***     solution:               ['1:A->B', '0:B->C', '0:C->G']
+***     expanded_states:        ['A', 'B', 'C']
+
+### Question q3: 3/3 ###
+
+
+Finished at 22:11:58
+
+Provisional grades
+==================
+Question q3: 3/3
+------------------
+Total: 3/3
+```
