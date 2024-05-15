@@ -147,3 +147,48 @@ Question q3: 3/3
 ------------------
 Total: 3/3
 ```
+
+## Q4 (3 pts): A* search (Lecture 3)
+
+```
+Starting on 5-15 at 13:11:51
+
+Question q4
+===========
+Search Succeeded.
+*** PASS: test_cases\q4\astar_0.test
+***     solution:               ['Right', 'Down', 'Down']
+***     expanded_states:        ['A', 'B', 'D', 'C', 'G']
+Search Succeeded.
+*** PASS: test_cases\q4\astar_1_graph_heuristic.test
+***     solution:               ['0', '0', '2']
+***     expanded_states:        ['S', 'A', 'D', 'C']
+Search Succeeded.
+*** PASS: test_cases\q4\astar_2_manhattan.test
+***     pacman layout:          mediumMaze
+***     solution length: 68
+***     nodes expanded:         221
+Search Succeeded.
+*** PASS: test_cases\q4\astar_3_goalAtDequeue.test
+***     solution:               ['1:A->B', '0:B->C', '0:C->G']
+***     expanded_states:        ['A', 'B', 'C']
+Search Succeeded.
+*** PASS: test_cases\q4\graph_backtrack.test
+***     solution:               ['1:A->C', '0:C->G']
+***     expanded_states:        ['A', 'B', 'C', 'D']
+Search Succeeded.
+*** PASS: test_cases\q4\graph_manypaths.test
+***     solution:               ['1:A->C', '0:C->D', '1:D->F', '0:F->G']
+***     expanded_states:        ['A', 'B1', 'C', 'B2', 'D', 'E1', 'F', 'E2']
+
+### Question q4: 3/3 ###
+
+
+Finished at 13:11:51
+
+Provisional grades
+==================
+Question q4: 3/3
+------------------
+Total: 3/3
+```
