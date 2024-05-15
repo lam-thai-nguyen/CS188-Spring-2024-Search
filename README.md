@@ -379,3 +379,101 @@ Question q7: 3/4
 ------------------
 Total: 6/7
 ```
+
+## Q8 (3 pts): Suboptimal Search
+
+```
+Starting on 5-15 at 23:36:55
+
+Question q8
+===========
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_1.test
+***     pacman layout:          Test 1
+***     solution length:                1
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_10.test
+***     pacman layout:          Test 10
+***     solution length:                1
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_11.test
+***     pacman layout:          Test 11
+***     solution length:                2
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_12.test
+***     pacman layout:          Test 12
+***     solution length:                3
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_13.test
+***     pacman layout:          Test 13
+***     solution length:                1
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_2.test
+***     pacman layout:          Test 2
+***     solution length:                1
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_3.test
+***     pacman layout:          Test 3
+***     solution length:                1
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_4.test
+***     pacman layout:          Test 4
+***     solution length:                3
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_5.test
+***     pacman layout:          Test 5
+***     solution length:                1
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_6.test
+***     pacman layout:          Test 6
+***     solution length:                2
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_7.test
+***     pacman layout:          Test 7
+***     solution length:                1
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_8.test
+***     pacman layout:          Test 8
+***     solution length:                1
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Search Succeeded.
+*** PASS: test_cases\q8\closest_dot_9.test
+***     pacman layout:          Test 9
+***     solution length:                1
+
+### Question q8: 3/3 ###
+
+
+Finished at 23:36:55
+
+Provisional grades
+==================
+Question q8: 3/3
+------------------
+Total: 3/3
+```
