@@ -305,3 +305,77 @@ Question q6: 1/3
 ------------------
 Total: 4/6
 ```
+
+## Q7 (4 pts): Eating All The Dots
+
+```
+Note: due to dependencies, the following tests will be run: q4 q7
+Starting on 5-15 at 23:21:50
+
+Question q4
+===========
+Search Succeeded.
+*** PASS: test_cases\q4\astar_0.test
+***     solution:               ['Right', 'Down', 'Down']
+***     expanded_states:        ['A', 'B', 'D', 'C', 'G']
+Search Succeeded.
+*** PASS: test_cases\q4\astar_1_graph_heuristic.test
+***     solution:               ['0', '0', '2']
+***     expanded_states:        ['S', 'A', 'D', 'C']
+Search Succeeded.
+*** PASS: test_cases\q4\astar_2_manhattan.test
+***     pacman layout:          mediumMaze
+***     solution length: 68
+***     nodes expanded:         221
+Search Succeeded.
+*** PASS: test_cases\q4\astar_3_goalAtDequeue.test
+***     solution:               ['1:A->B', '0:B->C', '0:C->G']
+***     expanded_states:        ['A', 'B', 'C']
+Search Succeeded.
+*** PASS: test_cases\q4\graph_backtrack.test
+***     solution:               ['1:A->C', '0:C->G']
+***     expanded_states:        ['A', 'B', 'C', 'D']
+Search Succeeded.
+*** PASS: test_cases\q4\graph_manypaths.test
+***     solution:               ['1:A->C', '0:C->D', '1:D->F', '0:F->G']
+***     expanded_states:        ['A', 'B1', 'C', 'B2', 'D', 'E1', 'F', 'E2']
+
+### Question q4: 3/3 ###
+
+
+Question q7
+===========
+*** PASS: test_cases\q7\food_heuristic_1.test
+*** PASS: test_cases\q7\food_heuristic_10.test
+*** PASS: test_cases\q7\food_heuristic_11.test
+*** PASS: test_cases\q7\food_heuristic_12.test
+*** PASS: test_cases\q7\food_heuristic_13.test
+*** PASS: test_cases\q7\food_heuristic_14.test
+*** PASS: test_cases\q7\food_heuristic_15.test
+*** PASS: test_cases\q7\food_heuristic_16.test
+*** PASS: test_cases\q7\food_heuristic_17.test
+*** PASS: test_cases\q7\food_heuristic_2.test
+*** PASS: test_cases\q7\food_heuristic_3.test
+*** PASS: test_cases\q7\food_heuristic_4.test
+*** PASS: test_cases\q7\food_heuristic_5.test
+*** PASS: test_cases\q7\food_heuristic_6.test
+*** PASS: test_cases\q7\food_heuristic_7.test
+*** PASS: test_cases\q7\food_heuristic_8.test
+*** PASS: test_cases\q7\food_heuristic_9.test
+Search Succeeded.
+*** FAIL: test_cases\q7\food_heuristic_grade_tricky.test
+***     expanded nodes: 9551
+***     thresholds: [15000, 12000, 9000, 7000]
+
+### Question q7: 3/4 ###
+
+
+Finished at 23:21:50
+
+Provisional grades
+==================
+Question q4: 3/3
+Question q7: 3/4
+------------------
+Total: 6/7
+```
