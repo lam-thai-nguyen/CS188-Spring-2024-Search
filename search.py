@@ -118,9 +118,8 @@ def breadthFirstSearch(problem: SearchProblem):
     "*** YOUR CODE HERE ***"
     queue = Queue()
     start = problem.getStartState()
-    queue.push((start, []))
+    queue.push((start, ()))
     visited = set()
-    path = []
     
     while not queue.isEmpty():
         u, path = queue.pop()
@@ -132,11 +131,11 @@ def breadthFirstSearch(problem: SearchProblem):
         
         if problem.isGoalState(u):
             print("Search Succeeded.")
-            return path
+            return list(path)
         
         for v, action, _ in problem.getSuccessors(u):
             if v not in visited:
-                queue.push((v, path + [action]))
+                queue.push((v, path + (action,)))
         
     print("Search Failed.")
     return None
