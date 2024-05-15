@@ -245,3 +245,63 @@ Question q5: 3/3
 ------------------
 Total: 6/6
 ```
+
+## Q6 (3 pts): Corners Problem: Heuristic (Lecture 3)
+
+```
+Note: due to dependencies, the following tests will be run: q4 q6
+Starting on 5-15 at 22:54:24
+
+Question q4
+===========
+Search Succeeded.
+*** PASS: test_cases\q4\astar_0.test
+***     solution:               ['Right', 'Down', 'Down']
+***     expanded_states:        ['A', 'B', 'D', 'C', 'G']
+Search Succeeded.
+*** PASS: test_cases\q4\astar_1_graph_heuristic.test
+***     solution:               ['0', '0', '2']
+***     expanded_states:        ['S', 'A', 'D', 'C']
+Search Succeeded.
+*** PASS: test_cases\q4\astar_2_manhattan.test
+***     pacman layout:          mediumMaze
+***     solution length: 68
+***     nodes expanded:         221
+Search Succeeded.
+*** PASS: test_cases\q4\astar_3_goalAtDequeue.test
+***     solution:               ['1:A->B', '0:B->C', '0:C->G']
+***     expanded_states:        ['A', 'B', 'C']
+Search Succeeded.
+*** PASS: test_cases\q4\graph_backtrack.test
+***     solution:               ['1:A->C', '0:C->G']
+***     expanded_states:        ['A', 'B', 'C', 'D']
+Search Succeeded.
+*** PASS: test_cases\q4\graph_manypaths.test
+***     solution:               ['1:A->C', '0:C->D', '1:D->F', '0:F->G']
+***     expanded_states:        ['A', 'B1', 'C', 'B2', 'D', 'E1', 'F', 'E2']
+
+### Question q4: 3/3 ###
+
+
+Question q6
+===========
+*** PASS: heuristic value less than true cost at start state
+*** PASS: heuristic value less than true cost at start state
+*** PASS: heuristic value less than true cost at start state
+Search Succeeded.
+path: ['North', 'East', 'East', 'East', 'East', 'North', 'North', 'West', 'West', 'West', 'West', 'North', 'North', 'North', 'North', 'North', 'North', 'North', 'North', 'West', 'West', 'West', 'West', 'South', 'South', 'East', 'East', 'East', 'East', 'South', 'South', 'South', 'South', 'South', 'South', 'West', 'West', 'South', 'South', 'South', 'West', 'West', 'East', 'East', 'North', 'North', 'North', 'East', 'East', 'East', 'East', 'East', 'East', 'East', 'East', 'South', 'South', 'East', 'East', 'East', 'East', 'East', 'North', 'North', 'East', 'East', 'North', 'North', 'East', 'East', 'North', 'North', 'East', 'East', 'East', 'East', 'South', 'South', 'South', 'South', 'East', 'East', 'North', 'North', 'East', 'East', 'South', 'South', 'South', 'South', 'South', 'North', 'North', 'North', 'North', 'North', 'North', 'North', 'West', 'West', 'North', 'North', 'East', 'East', 'North', 'North']       
+path length: 106
+*** FAIL: Heuristic resulted in expansion of 1816 nodes
+
+### Question q6: 1/3 ###
+
+
+Finished at 22:54:24
+
+Provisional grades
+==================
+Question q4: 3/3
+Question q6: 1/3
+------------------
+Total: 4/6
+```
