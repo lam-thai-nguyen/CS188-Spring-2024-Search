@@ -192,3 +192,56 @@ Question q4: 3/3
 ------------------
 Total: 3/3
 ```
+
+## Q5 (3 pts): Finding All the Corners (Lecture 3)
+
+```
+Note: due to dependencies, the following tests will be run: q2 q5
+Starting on 5-15 at 18:21:03
+
+Question q2
+===========
+Search Succeeded.
+*** PASS: test_cases\q2\graph_backtrack.test
+***     solution:               ['1:A->C', '0:C->G']
+***     expanded_states:        ['A', 'B', 'C', 'D']
+Search Succeeded.
+*** PASS: test_cases\q2\graph_bfs_vs_dfs.test
+***     solution:               ['1:A->G']
+***     expanded_states:        ['A', 'B']
+Search Succeeded.
+*** PASS: test_cases\q2\graph_infinite.test
+***     solution:               ['0:A->B', '1:B->C', '1:C->G']
+***     expanded_states:        ['A', 'B', 'C']
+Search Succeeded.
+*** PASS: test_cases\q2\graph_manypaths.test
+***     solution:               ['1:A->C', '0:C->D', '1:D->F', '0:F->G']
+***     expanded_states:        ['A', 'B1', 'C', 'B2', 'D', 'E1', 'F', 'E2']
+Search Succeeded.
+*** PASS: test_cases\q2\pacman_1.test
+***     pacman layout:          mediumMaze
+***     solution length: 68
+***     nodes expanded:         269
+
+### Question q2: 3/3 ###
+
+
+Question q5
+===========
+Search Succeeded.
+*** PASS: test_cases\q5\corner_tiny_corner.test
+***     pacman layout:          tinyCorner
+***     solution length:                28
+
+### Question q5: 3/3 ###
+
+
+Finished at 18:21:03
+
+Provisional grades
+==================
+Question q2: 3/3
+Question q5: 3/3
+------------------
+Total: 6/6
+```
