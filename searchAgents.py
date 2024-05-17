@@ -43,6 +43,10 @@ import time
 import search
 import pacman
 
+##########################################
+#               NHOM 10                  #
+##########################################
+
 class GoWestAgent(Agent):
     "An agent that goes West until it can't."
 
@@ -588,3 +592,7 @@ def mazeDistance(point1: Tuple[int, int], point2: Tuple[int, int], gameState: pa
     assert not walls[x2][y2], 'point2 is a wall: ' + str(point2)
     prob = PositionSearchProblem(gameState, start=point1, goal=point2, warn=False, visualize=False)
     return len(search.bfs(prob))
+
+##########################################
+#               NHOM 10                  #
+##########################################

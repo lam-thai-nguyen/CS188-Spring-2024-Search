@@ -20,6 +20,10 @@ Pacman agents (in searchAgents.py).
 import util
 from util import Stack, Queue, PriorityQueue, PriorityQueueWithFunction
 
+##########################################
+#               NHOM 10                  #
+##########################################
+
 class SearchProblem:
     """
     This class outlines the structure of a search problem, but doesn't implement
@@ -209,3 +213,7 @@ bfs = breadthFirstSearch
 dfs = depthFirstSearch
 astar = aStarSearch
 ucs = uniformCostSearch
+
+##########################################
+#               NHOM 10                  #
+##########################################
